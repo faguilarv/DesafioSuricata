@@ -1,3 +1,9 @@
+body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: (auto 1fr auto);
+}
+
 .bg-pink {
     background-color: #E83E8C;
 }
@@ -11,8 +17,10 @@
 
 .footer {
     background-color: #17A2B8;
-    width: 100%;
     height: 170px;
+    bottom: 0;
+
+
 }
 
 .footer .anuncio {
@@ -40,17 +48,11 @@
 .footer2 {
     background-color: #E83E8C;
     height: 170px;
-    margin: 0 auto;
-    position: relative;
+
 }
 
 .suricata img {
     width: 70px;
     height: 120px;
-    position: absolute;
-
-    top: 20%;
-    right: 50%;
-    transform: translate(50% -50%);
 
 }
